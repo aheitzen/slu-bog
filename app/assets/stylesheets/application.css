@@ -10,6 +10,69 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ *= require rails_bootstrap_forms
+*= require_tree .
  *= require_self
  */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+ div#background {
+ 	background-image: url(https://wallpaperscraft.com/image/abstraction_geometry_shapes_colors_93400_1920x1080.jpg);
+ 	background-repeat: no-repeat; 
+ 	min-height: 100%;
+ 	max-width: 100%;
+ 	margin: 0;
+ 	position: relative;
+
+
+ }
+
+ body {
+ 	
+ 	height: 100%;
+ 	width: 100%;
+ 	margin: 0;
+ }
+
+
+div#opacity {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	
+}
+
+h1#final_fantasy {
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+}
+
+h1#creature_finder {
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	font-size: 70px;
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+#a {
+
+ color: white;
+ &:visited {
+    color: white;
+	}
+}
